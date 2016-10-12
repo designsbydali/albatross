@@ -10,27 +10,21 @@ body{
   margin: 0;
   color: #32cd32;
   width: 100%;
+  /*border: 0;*/
 }
 .navbar>li{
   padding-right: 50px;
 }
 
 .intro{
-  padding: 0;
+  /*padding: 0;*/
 }
 @media (max-width: 450px){
   .intro{
-    padding: 0px;
+    /*padding: 0px;*/
   }
 }
-.arrow{
-  margin-top: 70px;
-}
-@media (max-width: 450px){
-  .arrow{
-    padding-bottom: 15px;
-  }
-}
+
 .hero-feature{
   padding: 0px 5px;
 }
