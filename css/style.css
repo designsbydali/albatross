@@ -48,7 +48,7 @@ p{
 .social-media{
   position: absolute;
   list-style: none;
-  top: 80px;
+  top: 100px;
   right: 30px;
   text-align: center;
   padding: 9px;
@@ -67,7 +67,7 @@ p{
   position: absolute;
   list-style: none;
   right: 30px;
-  top: 310px;
+  top: 330px;
 }
 .content-section{
   font-size: 8px;
