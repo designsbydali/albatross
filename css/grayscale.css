@@ -61,10 +61,10 @@ a:focus {
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #000;
   font-size: 12px;
-  float: none;
-  margin: 5px;
+  /*float: none;*/
+  margin: 10px 10px;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
@@ -121,20 +121,8 @@ a:focus {
     border-bottom: 0;
   }
 }
-.intro {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: white;
-  background: url(../img/albatross-hero.jpg) no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
+
+
 .intro .intro-body {
   /*display: table-cell;*/
   /*vertical-align: top;*/
@@ -149,7 +137,7 @@ a:focus {
 @media (min-width: 768px) {
   .intro {
     height: 100%;
-    vertical-align:inherit;
+    /*vertical-align:inherit;*/
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
