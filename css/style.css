@@ -10,7 +10,7 @@ p{
   font-size: 10px;
 }
 .navbar{
-  background: url(../img/albatross-logo.png)
+  /*background: url(../img/albatross-logo.png)*/
   background-color: #000;
   margin: 0;
   color: #32cd32;
@@ -71,7 +71,7 @@ p{
 }
 .content-section{
   font-size: 8px;
-  padding-top: 70px;
+  padding-top: 60px;
   /*height: 100%;*/
   text-align: left;
   clear: both;
@@ -86,7 +86,7 @@ blockquote{
 }
 @media (min-width: 768px){
   .about-head>h2{
-    /*margin-bottom: 10px;*/
+    margin-bottom: 70px;
   }
 }
 @media (min-width: 768px){
@@ -154,7 +154,8 @@ a:hover{
   display: table;
   width: 100%;
   height: 100%;
-  padding-top: 60px;
+  margin-top: 40px;
+  padding: 300px 0px;
   text-align: center;
   color: white;
   background: url(../img/albatross-footer.jpg) no-repeat bottom center scroll;
@@ -164,14 +165,21 @@ a:hover{
   background-size: cover;
   -o-background-size: cover;
 }
+.footer>p{
+  vertical-align: baseline;
+}
 @media(max-width: 450px){
   .footer{
-    /*padding: 152px 0px;*/
+    padding-top: 149px;
+    margin-top: 40px;
   }
 }
 @media (min-width:451px) and (max-width: 1024px){
   .footer{
-    /*padding: 348px 0px;*/
+    padding: 250px 0px;
+    margin-top: 40px;
   }
-
+}
+.copy{
+  text-align: center;
 }
